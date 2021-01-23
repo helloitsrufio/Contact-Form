@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-shadow:0 0 .5rem .5rem lightgray;
+    padding: 2rem;
+    width: 20%;
+}
+
+.field{
+    width:90%;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons input {
+    margin: 0.5rem;
+    padding: .2rem .5rem;
+}

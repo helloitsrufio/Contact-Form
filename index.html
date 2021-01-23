@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>Contact Us</title>
+</head>
+<body>
+    <form action='http://localhost:5500' method="POST" id='form'>
+        <h1>Contact Us</h1>
+        <section>
+            <h3>Name</h3>
+            <input type="text" placeholder="Input full name" class='field' required>
+        </section>
+        <section>
+            <h3>Email</h3>
+            <input type="text" placeholder="Input email" id = 'email' class='field' required>
+        </section>
+        <section>
+            <h3>Birth date</h3>
+            <input type="date" name="" id="" class='field' required>
+        </section>
+        <section class="checkbox">
+            <input type="checkbox" name="" id="" required >
+            <h4>I agree to be contacted via email.</h4>
+        </section>
+       <section class="buttons">
+            <input type="reset" value="Clear" onclick="reset_function()" id= 'clear' required>
+            <input type="button" value="Submit" id='submitBtn'>
+       </section>
+    </form>
+    <!-- <p>Succcess! We'll be in contact with you shortly.</p> -->
+</body>
+<script src='app.js'></script>
+</html>
